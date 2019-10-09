@@ -1,4 +1,4 @@
-use assignment2;
+/* use assignment2; */
 
 create view deleveloper_roles_and_privileges as
 select firstname, lastname, username, email, website_name, website_updated, website_visits,

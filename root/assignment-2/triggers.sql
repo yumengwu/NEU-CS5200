@@ -1,4 +1,4 @@
-use assignment2;
+/* use assignment2; */
 
 delimiter $
 create trigger create_website_privilege

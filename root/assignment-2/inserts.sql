@@ -1,4 +1,4 @@
-use assignment2;
+/* use assignment2; */
 
 insert into person values
 (12, 'Alice', 'Wonder', 'alice', 'alice', 'alice@wonder.com', null),

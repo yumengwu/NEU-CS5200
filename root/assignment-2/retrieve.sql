@@ -1,4 +1,4 @@
-use assignment2;
+/* use assignment2; */
 
 /* 1. Retrieve developers */
 /* Retrieve all developers */

@@ -1,0 +1,5 @@
+hostname: cs5200-fall2019-yumengwu.c9vyxq2ayf8q.us-east-1.rds.amazonaws.com
+username: admin
+password: Wym_123456
+port: 3306
+database: cs5200_fall2019_yumengwu

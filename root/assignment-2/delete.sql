@@ -1,4 +1,4 @@
-use assignment2;
+/* use assignment2; */
 
 /* Delete developer - Delete Alice's primary address */
 delete from address

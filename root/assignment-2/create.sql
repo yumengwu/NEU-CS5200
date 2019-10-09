@@ -1,6 +1,6 @@
-create schema assignment2;
+create schema cs5200_fall2019_yumengwu;
 
-use assignment2;
+use cs5200_fall2019_yumengwu;
 
 create table person (
     id int not null auto_increment,
