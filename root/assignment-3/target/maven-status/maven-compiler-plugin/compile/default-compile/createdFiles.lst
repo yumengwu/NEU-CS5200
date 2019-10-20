@@ -1,0 +1,17 @@
+edu/northeastern/cs5200/models/HtmlWidget.class
+edu/northeastern/cs5200/models/YouTubeWidget.class
+edu/northeastern/cs5200/models/Person.class
+edu/northeastern/cs5200/models/Widget.class
+edu/northeastern/cs5200/Connection.class
+edu/northeastern/cs5200/daos/DeveloperDao.class
+edu/northeastern/cs5200/models/User.class
+edu/northeastern/cs5200/models/Website.class
+edu/northeastern/cs5200/models/Role.class
+edu/northeastern/cs5200/models/Page.class
+edu/northeastern/cs5200/daos/DeveloperImpl.class
+edu/northeastern/cs5200/models/Priviledge.class
+edu/northeastern/cs5200/Cs5200Fall2019WuYumengJdbcApplication.class
+edu/northeastern/cs5200/ServletInitializer.class
+edu/northeastern/cs5200/models/ImageWidget.class
+edu/northeastern/cs5200/models/HeadingWidget.class
+edu/northeastern/cs5200/models/Developer.class
