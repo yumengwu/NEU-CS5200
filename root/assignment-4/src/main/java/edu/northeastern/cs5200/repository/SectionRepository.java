@@ -2,11 +2,13 @@ package edu.northeastern.cs5200.repository;
 
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
 import edu.northeastern.cs5200.models.Section;
 
+@Repository
 public interface SectionRepository extends CrudRepository<Section, Integer> {
   @Query("select s from Section s where s.title=?1")
   Section findByTitle(String title);

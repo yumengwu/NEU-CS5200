@@ -2,11 +2,13 @@ package edu.northeastern.cs5200.repository;
 
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
 import edu.northeastern.cs5200.models.Student;
 
+@Repository
 public interface StudentRepository extends CrudRepository<Student, Integer> {
   @Query("select s from Student s where s.username = ?1")
   Student findByUsername(String username);

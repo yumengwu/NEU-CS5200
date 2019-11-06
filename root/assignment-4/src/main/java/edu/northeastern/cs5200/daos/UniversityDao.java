@@ -19,9 +19,9 @@ public interface UniversityDao {
 
   Section createSection(Section section);
 
-//  Course addSectionToCourse(Section section, Course course);
-//
-//  Course setAuthorForCourse(Faculty faculty, Course course);
+  Course addSectionToCourse(Section section, Course course);
+
+  Course setAuthorForCourse(Faculty faculty, Course course);
 
   Boolean enrollStudentInSection(Student student, Section section);
 }

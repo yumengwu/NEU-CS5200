@@ -72,6 +72,20 @@ public class UniversityDaoImpl implements UniversityDao {
     return sectionRepository.save(section);
   }
 
+  public Course addSectionToCourse(Section section, Course course) {
+    course = courseRepository.findCourseByLabel(course.getLabel());
+    course.addSection(section);
+    return courseRepository.save(course);
+  }
+
+  public Course setAuthorForCourse(Faculty faculty, Course course) {
+    faculty = facultyRepository.findFacultyByUsername(faculty.getUsername());
+    faculty.authoredCourse(course);
+    course.setAuthor(faculty);
+    facultyRepository.save(faculty);
+    return courseRepository.save(course);
+  }
+
   public Boolean enrollStudentInSection(Student student, Section section) {
     section = sectionRepository.findByTitle(section.getTitle());
     if (section.getSeats() > 0) {
